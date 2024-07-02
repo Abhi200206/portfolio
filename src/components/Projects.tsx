@@ -12,9 +12,9 @@ export const Projects = () => {
                 <p>Projects:</p>
             </div>
             <div>
-                <Projectcomp link="./public/insightink.png" title="InsightInk" desc={insightDesc} gitlink="https://github.com/Abhi200206/InsightInk" livelink="https://insight-ink-mu.vercel.app/" tech={insightink}/>
-                <Projectcomp link="./public/pullsurge.png" title="PullSurge" desc={pullsurgedesc} gitlink="https://github.com/Abhi200206/PullSurge" livelink="https://pull-surge.vercel.app/" tech={pullsurge}/>
-                <Projectcomp link="./hyperwallet.png" title="Hyperwallet" desc={hyperwalletdesc} gitlink="https://github.com/Abhi200206/Hyper-wallet" tech={hyperwallet}/>
+                <Projectcomp link="/insightink.png" title="InsightInk" desc={insightDesc} gitlink="https://github.com/Abhi200206/InsightInk" livelink="https://insight-ink-mu.vercel.app/" tech={insightink}/>
+                <Projectcomp link="/pullsurge.png" title="PullSurge" desc={pullsurgedesc} gitlink="https://github.com/Abhi200206/PullSurge" livelink="https://pull-surge.vercel.app/" tech={pullsurge}/>
+                <Projectcomp link="/hyperwallet.png" title="Hyperwallet" desc={hyperwalletdesc} gitlink="https://github.com/Abhi200206/Hyper-wallet" tech={hyperwallet}/>
             </div>
         </div>
     )
