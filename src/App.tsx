@@ -16,7 +16,7 @@ function App() {
     ref.current.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <div >
+    <div className="bg-purple-500">
       <div className='flex justify-center sticky z-2 top-2 mb-4'>
         <Headrer scrollToHome={() => scrollToSection(homeRef)}
           scrollToExperience={() => scrollToSection(experienceRef)}
@@ -29,13 +29,13 @@ function App() {
           <Home />
         </section>
         <section ref={experienceRef} id="experience">
-          <Experience/>
+          <Experience />
         </section>
         <section ref={skillsRef} id="skills">
-          <Skills/>
+          <Skills />
         </section>
         <section ref={projectsRef} id="projects">
-          <Projects/>
+          <Projects />
         </section>
         <section ref={contactRef} id="contact">
           <Contact />
