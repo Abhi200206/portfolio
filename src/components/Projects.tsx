@@ -7,7 +7,7 @@ export const Projects = () => {
     const pullsurgedesc="PullSurge is a web application similar to Postman, designed for testing REST services and WebSocket-based connections. Built with React.js, TailwindCSS, Recoil.js, and TypeScript, it provides an intuitive interface for developers to interact with and test their backend APIs.";
     const hyperwalletdesc="Hyper Wallet is a web application that allows users to send money to each other securely. Built with React, TailwindCSS, JavaScript, Node.js, and Express.js, it features JWT authentication and input validation using Zod to ensure data integrity and security.";
     return (
-        <div >
+        <div  className="bg-white">
             <div className="text-black font-extrabold text-3xl flex justify-center pt-[30px] pb-[60px] ">
                 <p>Projects:</p>
             </div>
