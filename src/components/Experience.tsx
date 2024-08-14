@@ -1,4 +1,4 @@
-export const Experience=()=>{
+export const Experience = () => {
     return (
         <div className="bg-gradient-to-b to-purple-500 from-pink-500 py-[60px] ">
             <div className="">
@@ -10,12 +10,12 @@ export const Experience=()=>{
                     <p className=" text-slate-700 font-extrabold text-lg pb-1 ">* GirlScript summer of code.</p>
                     <p className="text-slate-600 font-extrabold text-sm pb-2">May 2023 - Aug 2023 |  Remote</p>
                     <p>During my time as an open-source contributor at GirlScript Summer of Code (GSSOC), I gained comprehensive knowledge about the open-source ecosystem and
-                     the processes involved in contributing effectively. Successfully making my first pull request marked a significant milestone in my open-source journey. 
-                     This experience enhanced my ability to collaborate with other developers, contributing to shared projects and learning from peers. I improved my proficiency 
-                     with version control systems like Git, managing and submitting changes to codebases. Participating in code reviews allowed me to provide and receive feedback,
-                      ensuring high-quality contributions. Actively engaging with the open-source community, I participated in discussions and contributed to project documentation.
-                       I applied my technical skills in JavaScript, React, Node.js, and other technologies to real-world open-source projects, developing problem-solving skills by tackling issues and implementing solutions.
-                     This experience provided exposure to a variety of projects and coding practices, broadening my understanding of software development.</p>
+                        the processes involved in contributing effectively. Successfully making my first pull request marked a significant milestone in my open-source journey.
+                        This experience enhanced my ability to collaborate with other developers, contributing to shared projects and learning from peers. I improved my proficiency
+                        with version control systems like Git, managing and submitting changes to codebases. Participating in code reviews allowed me to provide and receive feedback,
+                        ensuring high-quality contributions. Actively engaging with the open-source community, I participated in discussions and contributed to project documentation.
+                        I applied my technical skills in JavaScript, React, Node.js, and other technologies to real-world open-source projects, developing problem-solving skills by tackling issues and implementing solutions.
+                        This experience provided exposure to a variety of projects and coding practices, broadening my understanding of software development.</p>
                 </div>
             </div>
         </div>

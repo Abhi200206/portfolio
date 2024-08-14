@@ -1,6 +1,6 @@
 import { Bnt } from "./Btn"
 import { Reftypes } from "../types/type"
-export const Headrer = ({ scrollToHome, scrollToExperience, scrollToProjects, scrollToSkills, scrollToContact }:Reftypes) => {
+export const Headrer = ({ scrollToHome, scrollToExperience, scrollToProjects, scrollToSkills, scrollToContact }: Reftypes) => {
     return (
         <div className="flex gap-2 bg-black p-2 rounded ">
             <Bnt value="home" onClick={scrollToHome} />
