@@ -1,31 +1,23 @@
-import { contacttype } from "../types/type"
+import { contacttype } from "../types/type";
+
 export const Contactbtn = ({ link, name, redirect, download }: contacttype) => {
     return (
-        <div className="w-full hover:bg-slate-400 rounded  m-1 max-w-[120px] ">
-            {download ? <a download={'resume.pdf'} target="blank" href={redirect}>
-                <div className="flex gap-2 items-center cursor-pointer p-2 ">
-
-
-                    <img className="h-6 w-6" src={link} alt="" />
-
-                    <div>
-                        <p className="text-white">{name}</p>
+        <div className="w-full hover:scale-105 transition-transform duration-300 rounded-lg bg-slate-100 p-4 shadow-md cursor-pointer">
+            {download ? (
+                <a download={'resume.pdf'} target="_blank" href={redirect}>
+                    <div className="flex gap-3 items-center">
+                        <img className="h-8 w-8" src={link} alt={`${name} icon`} />
+                        <p className="text-black font-semibold text-lg hover:text-indigo-500">{name}</p>
                     </div>
-
-                </div>
-            </a> : <a target="blank" href={redirect}>
-                <div className="flex gap-2 items-center cursor-pointer p-2 ">
-
-
-                    <img className="h-6 w-6" src={link} alt="" />
-
-                    <div>
-                        <p className="text-white">{name}</p>
+                </a>
+            ) : (
+                <a target="_blank" href={redirect}>
+                    <div className="flex gap-3 items-center">
+                        <img className="h-8 w-8" src={link} alt={`${name} icon`} />
+                        <p className="text-black font-semibold text-lg hover:text-indigo-500">{name}</p>
                     </div>
-
-                </div>
-            </a>
-            }
+                </a>
+            )}
         </div>
-    )
-}
+    );
+};

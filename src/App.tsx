@@ -17,7 +17,7 @@ function App() {
   };
   return (
     <div className="bg-purple-500">
-      <div className='flex justify-center sticky z-2 top-2 mb-4'>
+      <div className='flex justify-center  sticky z-40 top-2 mb-4 md:mx-2'>
         <Headrer scrollToHome={() => scrollToSection(homeRef)}
           scrollToExperience={() => scrollToSection(experienceRef)}
           scrollToProjects={() => scrollToSection(projectsRef)}
