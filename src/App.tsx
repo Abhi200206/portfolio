@@ -6,23 +6,26 @@ import { Skills } from "./components/Skills";
 import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
 function App() {
-
   const homeRef = useRef(null);
   const experienceRef = useRef(null);
   const projectsRef = useRef(null);
   const skillsRef = useRef(null);
   const contactRef = useRef(null);
+
   const scrollToSection = (ref: React.MutableRefObject<any>) => {
     ref.current.scrollIntoView({ behavior: "smooth" });
   };
+
   return (
-    <div className="bg-purple-500">
-      <div className='flex justify-center  sticky z-40 top-2 mb-4 md:mx-2'>
-        <Headrer scrollToHome={() => scrollToSection(homeRef)}
+    <div className="bg-purple-500 w-full">
+      <div className="flex justify-center mx-auto sticky z-40 top-2 mb-4">
+        <Headrer
+          scrollToHome={() => scrollToSection(homeRef)}
           scrollToExperience={() => scrollToSection(experienceRef)}
           scrollToProjects={() => scrollToSection(projectsRef)}
           scrollToSkills={() => scrollToSection(skillsRef)}
-          scrollToContact={() => scrollToSection(contactRef)} />
+          scrollToContact={() => scrollToSection(contactRef)}
+        />
       </div>
       <div>
         <section ref={homeRef} id="home">
@@ -42,7 +45,7 @@ function App() {
         </section>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
